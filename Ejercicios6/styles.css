@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedorPadre {
+    width: 400px;
+    height: 400px;
+    background-color: #d12525;
+    position: relative;
+}
+
+.contenedorHijo {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
